@@ -1,0 +1,32 @@
+.mainPage{
+    text-align: center;
+  
+}
+
+
+.todo_title{
+    display:inline-block;
+    font-size: 50px;
+    
+}
+
+.input-box input{
+    width:400px;
+    border-radius: 15px;
+    height:40px;
+    margin: 20px 20px; 
+}
+
+.input-box button{
+    border-radius: 2px;
+    background-color: blueviolet;
+    margin: 20px 5px;
+   
+}
+li{
+    list-style-type: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
