@@ -11,6 +11,10 @@ const TodoList = () => {
     setItem(event.target.value);
   };
   const newListHandler = () => {
+    if(item.trim().length===0){
+      return;
+    }
+
     const newItemAdded = {
       task: item,
       id: Math.random().toString(),
@@ -18,6 +22,7 @@ const TodoList = () => {
     };
     setTodoList([...todoList, newItemAdded]);
     setItem("");
+    
   };
  
 
